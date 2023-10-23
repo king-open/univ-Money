@@ -22,6 +22,9 @@ devDependencies:
   vite:
     specifier: ^4.4.5
     version: 4.5.0
+  vue-router:
+    specifier: 4.0.14
+    version: 4.0.14(vue@3.3.6)
   vue-tsc:
     specifier: ^1.8.5
     version: 1.8.19(typescript@5.2.2)
@@ -663,6 +666,10 @@ packages:
       '@vue/compiler-dom': 3.3.6
       '@vue/shared': 3.3.6
 
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: true
+
   /@vue/language-core@1.8.19(typescript@5.2.2):
     resolution: {integrity: sha512-nt3dodGs97UM6fnxeQBazO50yYCKBK53waFWB3qMbLmR6eL3aUryZgQtZoBe1pye17Wl8fs9HysV3si6xMgndQ==}
     peerDependencies:
@@ -1057,6 +1064,15 @@ packages:
       rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.3
+    dev: true
+
+  /vue-router@4.0.14(vue@3.3.6):
+    resolution: {integrity: sha512-wAO6zF9zxA3u+7AkMPqw9LjoUCjSxfFvINQj3E/DceTt6uEz1XZLraDhdg2EYmvVwTBSGlLYsUw8bDmx0754Mw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.1
+      vue: 3.3.6(typescript@5.2.2)
     dev: true
 
   /vue-template-compiler@2.7.14:
